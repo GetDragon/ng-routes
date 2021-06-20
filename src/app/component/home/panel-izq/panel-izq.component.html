@@ -1,0 +1,13 @@
+<div style="display: flex;">
+    <div style="width: 100px;">
+        <div class="container-bnt">
+            <a (click)="navegarPanelIzq('toc')" class="boton">Tabla de contenido</a>
+            <a (click)="navegarPanelIzq('lawart')" class="boton">Listado de normas y articulos</a>
+            <a (click)="navegarPanelIzq('indextheme')" class="boton">Indice Temático</a>
+            <a (click)="navegarPanelIzq('reltoc')" class="boton">Contenido relacionado</a>
+        </div>
+    </div>
+    <div style="width:200px; background-color: darkkhaki; padding: 6px;">
+        <router-outlet></router-outlet>
+    </div>
+</div>

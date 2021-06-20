@@ -1,0 +1,17 @@
+.container-bnt {
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-flow: row;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+.boton {
+    background-color: rgb(218 230 194);
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
